@@ -14,7 +14,7 @@ This repository provides a graphical user interface for the argosim package.
     ```
 3. Run the application:
     ```bash
-    python argosim-gui.py
+    python src/argosim-gui.py
     ```
 ## Graphical User Interface
 ![argosim-GUI Screenshot](assets/GUI-Example.png)
