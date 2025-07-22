@@ -144,8 +144,8 @@ class InterferometricArrayWidget(QWidget):
                 span_height = float(self.param_widgets['span_height'].text())
                 antenna = argosim.antenna_utils.uni_antenna_array(n_antenna_E=n_x, n_antenna_N=n_y, E_lim=span_width, N_lim=span_height)
             elif array_type == "Templates":
-                antenna_file = self.template_combo.currentText() + '.enu.txt'
-                antenna = argosim.antenna_utils.load_antenna_enu_txt('assets/'+antenna_file)
+                antenna_file = 'assets/' + self.template_combo.currentText() + '.enu.txt'
+                antenna = argosim.antenna_utils.load_antenna_enu_txt(antenna_file)
             else:
                 return
             baselines = argosim.antenna_utils.get_baselines(antenna)
