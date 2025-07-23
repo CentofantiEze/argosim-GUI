@@ -1,5 +1,5 @@
 # argosim-GUI
-This repository provides a graphical user interface for the argosim package.
+This repository provides a graphical user interface for the [argosim](https://github.com/ARGOS-telescope/argosim) package.
 
 ## How to run
 1. Clone the repository:
