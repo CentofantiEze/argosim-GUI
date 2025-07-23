@@ -1,4 +1,4 @@
-# app.py
+# main_window.py
 import sys
 from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QScrollArea
