@@ -104,7 +104,7 @@ class ApertureSynthesisWidget(QWidget):
         # Matplotlib FigureCanvas for uv and dirty beam
         self.fig = Figure(figsize=(6, 3))
         self.canvas = ScrollableFigureCanvas(self.fig)
-        self.canvas.setMinimumHeight(250)
+        self.canvas.setMinimumHeight(400)
         layout.addWidget(self.canvas, stretch=1)
 
         self.setLayout(layout)

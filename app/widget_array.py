@@ -86,8 +86,8 @@ class InterferometricArrayWidget(QWidget):
         # Matplotlib FigureCanvas
         self.fig = Figure()
         self.canvas = ScrollableFigureCanvas(self.fig)
-        self.canvas.setMinimumHeight(250)
-        self.canvas.setMinimumWidth(800)
+        self.canvas.setMinimumHeight(400)
+        self.canvas.setMinimumWidth(1000)
         layout.addWidget(self.canvas, stretch=1)
 
         self.setLayout(layout)

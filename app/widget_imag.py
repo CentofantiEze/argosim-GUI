@@ -66,7 +66,7 @@ class ImagingWidget(QWidget):
         # Matplotlib FigureCanvas for sky model and observation
         self.fig = Figure(figsize=(6, 3))
         self.canvas = ScrollableFigureCanvas(self.fig)
-        self.canvas.setMinimumHeight(250)
+        self.canvas.setMinimumHeight(400)
         layout.addWidget(self.canvas, stretch=1)
 
         self.setLayout(layout)
