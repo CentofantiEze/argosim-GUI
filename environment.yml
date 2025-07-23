@@ -3,9 +3,9 @@ channels:
   - conda-forge
 dependencies:
   - python=3.12
-  - PyQt=6
   - numpy
   - matplotlib
   - pip
   - pip:
       - argosim
+      - PyQt6
